@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+.secrets/
+*.cookie
+.backup/
+# 生成物(動画・字幕・記事・画像・添削記録)
+channels/*/videos/
+channels/*/transcripts/
+channels/*/articles/
+channels/*/critiques/
+.tmp_subs/

@@ -1,0 +1,37 @@
+{
+  "name": "（チャンネル名）",
+  "speaker": "（話者の名前）",
+  "note_urlname": "（noteのurlname。https://note.com/{ここ}）",
+  "paths": {
+    "table": "channels/_template/table.md",
+    "articles": "channels/_template/articles",
+    "meta": "channels/_template/articles/meta",
+    "images": "channels/_template/articles/images",
+    "transcripts": "channels/_template/transcripts",
+    "videos": "channels/_template/videos",
+    "critiques": "channels/_template/critiques",
+    "cookie": ".secrets/_template.cookie",
+    "voice": "channels/_template/voice.md",
+    "footer": "channels/_template/footer.md",
+    "glossary": "channels/_template/glossary.md"
+  },
+  "slots": ["12:00", "19:00"],
+  "features": {
+    "self_intro": false
+  },
+  "footer": {
+    "start": "（フッター1段落目の書き出し。ここから後ろをフッターとして扱う）",
+    "markers": [
+      "（フッターに必ず出てくる語を、出てくる順に）",
+      "※本記事の動画内容は、動画撮影時点の情報です。"
+    ],
+    "links": [
+      {"para_prefix": "（リンクを入れる段落の書き出し）", "find": "（リンクにする語）", "text": "（リンクにする語）", "url": "https://..."}
+    ],
+    "video_embed_after": "（この書き出しの段落の直後に YouTube 動画を埋め込む。不要なら空文字）"
+  },
+  "lint": {
+    "name_typos": [],
+    "body_cta": ""
+  }
+}
