@@ -7,6 +7,7 @@ Claude Code のスキルと Python / シェルスクリプトで構成してい�
 - AI が判断できないこと(字幕の誤変換の疑い、事実の食い違いなど)は「要人間確認」として止め、人が判断してから予約します
 - 話者が言っていないことを記事に足さないよう、執筆・添削・ファクトチェックを別々の工程に分けています
 
+> インターン先で運用している仕組みから、汎用部分を切り出して公開しています。そのためコミットは1件です。
 > このリポジトリはコードと仕組みだけを置いています。記事・字幕・動画などのデータは含みません。
 > `channels/sample/` は設定の書き方を示すための空のサンプルです。
 
@@ -110,6 +111,7 @@ viewer/                管理表をブラウザで見て操作する Next.js ア
 
 - Python 3(標準ライブラリのみ。HTTP 通信は `curl`)
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)、[FFmpeg](https://ffmpeg.org/)
+- [mlx-whisper](https://github.com/ml-explore/mlx-examples)(字幕のない動画を文字起こしする場合。Apple Silicon)
 - Node.js(viewer を使う場合)
 - [Claude Code](https://claude.com/claude-code)(スキルを使う場合)
 
